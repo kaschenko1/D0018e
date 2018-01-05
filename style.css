@@ -1,0 +1,318 @@
+body{
+	background-color: tan;
+}
+
+h2{
+	color: black;
+	text-align: center;
+}
+
+
+#hemma{
+	background-image: url("tvad.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+#loginmail{
+	margin-top: 20px;
+	margin-left: 120px;
+	margin-bottom: 20px;
+
+}
+#loginpass{
+	margin-top: 20px;
+	margin-left:50px;
+	margin-bottom: 20px;
+}
+
+#loginbutt{
+	margin-top: 16px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+
+
+}
+
+.lgnbtn{
+	border: 1px solid white;
+  
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 
+    cursor: pointer;
+}
+
+
+
+
+#loggaut{
+	margin-left: 400px;
+	float: right;
+}
+
+
+#loggautadmin{
+	position: absolute;
+	float: right;
+}
+
+.nav{
+	width: 100%;
+	background-color: #660000;
+	overflow: auto;
+}
+.nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav li{
+	float: left;
+
+}
+
+.checked{
+	color: yellow;
+}
+
+.unchecked{
+	color: white;
+}
+
+.ratingstar{
+	float: left;
+}
+
+
+.nav a:link, .nav a:visited{
+	width: 130px;
+	margin-top: 10px;
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+#bild{
+	background-image: url(cart2.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+
+
+	/*<img  style= "display:block: padding-top: 5px;" src="cart2.png" width="33" height="33">*/
+}
+
+#testid{
+	float: left;
+	margin-top: 20px;
+	height: 23px;
+
+}
+
+.singleproduct{
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+.cartproduct{
+	
+	width: 200px;
+	margin-top: 100px;
+	margin-left: 50px;
+	float: left;
+	
+}
+
+
+.productprice{
+
+
+	position: absolute;
+	font-size: 35px;
+
+
+}
+
+.shipbtn{
+	background-color: #660000;
+	color: white;
+	font-size: 15px;
+	float: right;
+	margin-top: 205px;
+	margin-right: 650px;
+	text-align: center;
+    text-indent: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.confirmbtn{
+	background-color: #660000;
+	color: white;
+	font-size: 15px;
+  
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-top: -20px;
+    text-align: center;
+    text-indent: center;
+    text-decoration: none;
+    display: inline-block;
+ 
+    cursor: pointer;
+}
+
+
+#UserProfile{
+	background-color: #660000;
+	color: white;
+	margin-top: 60px;
+	margin-left: 300px;
+}
+
+
+#AllUserProfile{
+	margin-top: 60px;
+	margin-left: 350px;
+}
+
+#AllUserProfile th{
+	background-color: #660000;
+	color: white;
+}
+
+#AllOrders{
+	margin-top: 60px;
+	margin-left: 500px;
+}
+
+#AllOrders th{
+	background-color: #660000;
+	color: white;
+}
+
+
+#ProductsProfile{
+	margin-top: 60px;
+	margin-left: 220px;
+}
+
+#ProductsProfile th{
+	background-color: #660000;
+	color: white;
+}
+#ProductsProfile a{
+	color: black;
+	text-decoration: none;
+}
+
+#Semp{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 135px;
+}
+
+.ssingleproduct{
+
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+.wrapper{
+
+
+	height: 650px;
+	width: 100%;
+}
+
+.pDes{
+	width: 500px;
+	display: block;
+	
+	margin-top: 100px;
+	float: left;
+	margin-left: 300px;
+	
+}
+
+
+.CR{
+	
+	float: left;
+	margin-left: 300px;
+	margin-top: 100px;
+}
+
+.comments{
+	border-bottom: 1px solid black;
+	display: block;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 35px;
+	
+}
+
+#uscom{
+	font-size: 30px;
+}
+
+
+#butt{
+	position: absolute;
+	margin-left: -3px;
+	display: inline-block;
+	float: left;
+	margin-right: 0;
+	margin-top: 20px;
+	width: 35px;
+	height: 29px;
+}
+
+
+.reg-inp{
+	text-align: center;
+}
+.reg-inp p{
+	text-align: center;
+}
+
+.reg-inp label{
+	display: block;
+	text-indent: right;
+	margin: 3px;
+}
+
+.reg-inp input{
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.error{
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	display: relative;
+	color: red;
+	background-color: tan;
+}
